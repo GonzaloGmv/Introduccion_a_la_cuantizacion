@@ -18,7 +18,7 @@ El tamaño del modelo GPT-2 es de 510,342,192 bytes o lo que es lo mimso, 486,58
 
 Ambos gráficos son bastante similares, con un pico sorprendente alrededor de 0. Este pico muestra que nuestra cuantización tiene bastantes pérdidas ya que invertir el proceso no genera los valores originales
 
-Ahora para comparar el rendimiento de los modelos,primero generaremos los siguientes 50 tokens de los modelos y a continuación veremos la perplejidad de cada uno:
+Ahora para comparar el rendimiento de los modelos,primero generaremos los siguientes 50 tokens de los modelos y a continuación veremos la perplejidad de cada uno. El tecxto inicial del que partirán los modelos para generar texto estará en inglés ya que de esta forma hemos comprobado que la salida es significativamente mejor.
 
 Esta es la salida del generador de texto con cada uno de los modelos: 
 
